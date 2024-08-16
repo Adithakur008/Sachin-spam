@@ -1,8 +1,8 @@
 telethon
 cryptg
 heroku3
-flask==2.2.2
-aiohttp==3.8.1
+flask
+aiohttp
 flask_restful
-gunicorn==20.1.0
-pymongo[srv]==3.12.3
+gunicorn
+
