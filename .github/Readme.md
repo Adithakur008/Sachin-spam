@@ -17,7 +17,7 @@ DESTROYER ＳＰＡＭ ＢＯＴ
 
 <h3 align="center">
     
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Adithakur008&repo=SACHIN-SPAM&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Adithakur008&repo=𝘋𝘌𝘚𝘛𝘙𝘖𝘠𝘌𝘙 𝘚𝘗𝘈𝘔&theme=dark)
 
 
 
