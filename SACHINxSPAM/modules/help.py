@@ -104,7 +104,7 @@ extra_msg = f"""
   ⦁ {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ)
   ⦁ {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 
-**© @SACHIN_OWMER ~ @V_VIP_OWMER**
+**© @ll_Destroyer_of_worldd_ll**
 """
 
 
@@ -116,7 +116,7 @@ owner_msg = f"""
  ❖ ᴜꜱᴀɢᴇ :
   ⦁{hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-**© @SACHIN_OWNER ~ @V_VIP_OWNER**
+**© @ll_Destroyer_of_worldd_ll**
 """      
           
 raid_msg = f"""
@@ -140,7 +140,7 @@ raid_msg = f"""
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ)
 
-**© @SACHIN_OWMER ~ @V_VIP_OWMER**
+**© @ll_Destroyer_of_worldd_ll**
 """
 
 spam_msg = f"""
@@ -183,7 +183,7 @@ spam_msg = f"""
   ⦁ {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @SACHIN_OWMER ~ @V_VIP_OWMER**
+** © @ll_Destroyer_of_worldd_ll**
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -210,19 +210,19 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/ALL_SANATANI_BOT"),
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cW07X2RM_IBmYTI1")
+                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/+B1_6C_CnB0AxNWY1"),
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+hZtWhC590gFiODNl")
               ]
             ]
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ destroyer ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @ll_Destroyer_of_worldd_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
 @X2.on(events.CallbackQuery(pattern=r"spam"))
 @X3.on(events.CallbackQuery(pattern=r"spam"))
-@X4.on(events.CallbackQuery(pattern=r"spam"))
+@X4.on(events.CallbackQuery(pattern=r"spam"))https://t.me/+B1_6C_CnB0AxNWY1
 @X5.on(events.CallbackQuery(pattern=r"spam"))
 @X6.on(events.CallbackQuery(pattern=r"spam"))
 @X7.on(events.CallbackQuery(pattern=r"spam"))
@@ -235,7 +235,7 @@ async def help_spam(event):
               buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
               ) 
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ destroyer ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @ll_Destroyer_of_worldd_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -254,7 +254,7 @@ async def help_raid(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴅᴇsᴛʀᴏʏᴇʀ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @ll_Destroyer_of_worldd_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -273,4 +273,4 @@ async def help_extra(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
             )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SACHIN_OWNER || @V_VIP_OWNER", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴅᴇsᴛʀᴏʏᴇʀ sᴘᴀᴍ ʙᴏᴛꜱ !! @ll_Destroyer_of_worldd_ll ", cache_time=0, alert=True)
