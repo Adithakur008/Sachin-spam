@@ -4,18 +4,17 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        Button.url("🍁 sᴀᴄʜɪɴ", "https://t.me/V_VIP_OWNER"),
-        Button.url("ᴜsᴇʀʙᴏᴛ 🕸️", "https://t.me/SANATANI_X_ROBOT")
+        Button.url("🍁 ᴅᴇsᴛʀᴏʏᴇʀ", "https://t.me/+hZtWhC590gFiODNl"),
     ],
     [
         Button.inline("🥀 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs 🥀", data="help_back")
     ],
     [
-        Button.url("✨ ᴜᴘᴅᴀᴛᴇ", "https://t.me/All_SANATANI_BOT"),
-        Button.url("sᴜᴘᴘᴏʀᴛ ❄️", "https://t.me/+cW07X2RM_IBmYTI1")
+        Button.url("✨ ᴜᴘᴅᴀᴛᴇ", "https://t.me/+hZtWhC590gFiODNl"),
+        Button.url("sᴜᴘᴘᴏʀᴛ ❄️", "https://t.me/+B1_6C_CnB0AxNWY1")
     ],
     [
-        Button.url("🌸 ᴊᴏɪɴ ғᴏʀ sᴜᴅᴏ 🌸", "https://t.me/+cW07X2RM_IBmYTI1")
+        Button.url("🌸 ᴊᴏɪɴ ғᴏʀ sᴜᴅᴏ 🌸", "https://t.me/+hZtWhC590gFiODNl")
     ],
 ]
 
