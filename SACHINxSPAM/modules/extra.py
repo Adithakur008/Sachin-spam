@@ -36,7 +36,7 @@ async def echo(event):
             elif user_id == OWNER_ID:
                 await event.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ")
             elif user_id in SUDO_USERS:
-                await event.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ꜱᴜᴅᴏ ᴜꜱᴇʀ")
+                await event.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇsᴛʀᴏʏᴇʀ ᴋɪᴅ")
             else:
                 try:
                     KEX = Get(base64.b64decode('QFRoZUFsdHJvbg=='))
