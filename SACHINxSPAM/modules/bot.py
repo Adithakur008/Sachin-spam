@@ -109,7 +109,7 @@ async def logs(KEX):
         await asyncio.sleep(1)
 
         try:
-            await X1.send_file(KEX.chat_id, "ʟᴏɢꜱ.ᴛxᴛ", caption=f"**sᴀɴᴀᴛᴀɴɪ ʙᴏᴛ ʟᴏɢꜱ 🍷**\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ⌛:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+            await X1.send_file(KEX.chat_id, "ʟᴏɢꜱ.ᴛxᴛ", caption=f"**ᴅᴇsᴛʀᴏʏᴇʀ ʙᴏᴛ ʟᴏɢꜱ 🍷**\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ⌛:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
             await fetch.delete()
         except Exception as e:
             await fetch.edit(f"**ᴇʀᴏᴏʀ:** {str(e)}")
