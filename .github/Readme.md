@@ -17,7 +17,7 @@
 
 <h3 align="center">
     
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Adithakur008&repo=sachin-spam&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Adithakur008&repo=Adithakur008&theme=dark)
 
 
 
