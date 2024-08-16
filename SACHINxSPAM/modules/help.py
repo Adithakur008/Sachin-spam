@@ -5,13 +5,13 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 
 
 HELP_STRING = f"""
-**❖ 𝖨𝖳'𝖲 𝖲𝖠𝖭𝖠𝖳𝖠𝖭𝖨 𝖧𝖤𝖫𝖯 𝖬𝖤𝖭𝖴 ❖**
+**❖ 𝖨𝖳'𝖲 DESTROYER 𝖧𝖤𝖫𝖯 𝖬𝖤𝖭𝖴 ❖**
 
 **● ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**
-**● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @SACHIN_OWNER**
-**● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @V_VIP_OWNER**
+**● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @ll_Destroyer_of_worldd_ll**
+**● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @ll_Destroyer_of_worldd_ll**
 
-**● ᴍᴏᴅᴇ ʙʏ » [❖ | 4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ | ❖](https://t.me/+cW07X2RM_IBmYTI1)**
+**● ᴍᴏᴅᴇ ʙʏ » [❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ𓆪 | ❖](https://t.me/+hZtWhC590gFiODNl)**
 """
 HELP_BUTTON = [
     [
@@ -23,8 +23,8 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/ALL_SANATANI_BOT"),
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cW07X2RM_IBmYTI1")
+      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/+hZtWhC590gFiODNl"),
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+B1_6C_CnB0AxNWY1")
     ]
   ]
 
