@@ -222,7 +222,7 @@ async def helpback(event):
 @X1.on(events.CallbackQuery(pattern=r"spam"))
 @X2.on(events.CallbackQuery(pattern=r"spam"))
 @X3.on(events.CallbackQuery(pattern=r"spam"))
-@X4.on(events.CallbackQuery(pattern=r"spam"))https://t.me/+B1_6C_CnB0AxNWY1
+@X4.on(events.CallbackQuery(pattern=r"spam"))
 @X5.on(events.CallbackQuery(pattern=r"spam"))
 @X6.on(events.CallbackQuery(pattern=r"spam"))
 @X7.on(events.CallbackQuery(pattern=r"spam"))
