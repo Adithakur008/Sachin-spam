@@ -164,7 +164,7 @@ async def ping(e):
         KEX = await e.reply(f"❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪 | ❖")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪 | ❖\n❖ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
+        await KEX.edit(f"[🍹] 𝘋𝘌𝘚𝘛𝘙𝘖𝘠𝘌𝘙 ✗ 𝘋𝘈𝘋𝘋𝘠\n[🏓] 𝘛𝘏𝘈𝘓𝘈 𝘍𝘠𝘛𝘌𝘙\n[⚡] 𝘙𝘌𝘈𝘋𝘠 𝘛𝘖 𝘍𝘊𝘒\n❖ ᴘɪɴɢ pong `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
