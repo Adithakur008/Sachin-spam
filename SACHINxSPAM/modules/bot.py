@@ -15,7 +15,7 @@ from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "ᴅ ᴇ s ᴛ ʀ ᴏ ʏ ᴇ ʀ"
 PIC = "https://telegra.ph/file/fcea9791b2366d867e135.jpg"
-Alivemsg = "ᴅᴇsᴛʀᴏʏᴇʀ x sᴘᴀᴍ  ʜᴇʀᴇ"
+Alivemsg = "𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  ʜᴇʀᴇ"
 
 TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | ᴅᴇsᴛʀᴏʏᴇʀ ꭙ ʙᴏᴛ | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [ᴅᴇsᴛʀᴏʏᴇʀ ꭙ ʙᴏᴛ](https://t.me/+B1_6C_CnB0AxNWY1)\n❖ ᴄʜᴀɴɴᴇʟ : [4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ](https://t.me/+cW07X2RM_IBmYTI1)\n❖ ᴏᴡɴᴇʀ : [ᴅᴇsᴛʀᴏʏᴇʀ ғᴀᴛʜᴇʀ ](https://t.me/ll_Destroyer_of_worldd_ll)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
                                   
@@ -164,7 +164,7 @@ async def ping(e):
         KEX = await e.reply(f"❖ | ᴅᴇsᴛʀᴏʏᴇʀ ꭙ ʙᴏᴛ | ❖")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"❖ | ᴅᴇsᴛʀᴏʏᴇʀ ꭙ ʙᴏᴛ | ❖\n❖ ᴛʜᴇ ᴍᴜsᴛ ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
+        await KEX.edit(f"❖ | ᴅᴇsᴛʀᴏʏᴇʀ ꭙ ʙᴏᴛ | ❖\n❖ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
@@ -181,7 +181,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"❖ ᴅᴇsᴛʀᴏʏᴇʀ ᴋᴀ ᴇᴋ ᴏʀ ʙᴇᴛᴀ...")
+        ok = await event.reply(f"❖ ᴅᴇsᴛʀᴏʏᴇʀ ᴋᴀ ᴇᴋ ᴏʀ ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏʀʜᴀ ʜ...")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -199,13 +199,13 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"❖ ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ !!")
+            await ok.edit(f"❖ ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴋɪᴅ !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"❖ **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**\n❖ ɪᴅ - `{target}`\n❖ ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...")
+            await ok.edit(f"❖ **ɴᴇᴡ ᴋɪᴅ**\n❖ ɪᴅ - `{target}`\n❖ ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
