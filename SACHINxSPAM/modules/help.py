@@ -9,7 +9,6 @@ HELP_STRING = f"""
 
 **● ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**
 **● ᴅᴇᴠᴇʟᴏᴘᴇʀ : @ll_Destroyer_of_worldd_ll**
-
 **● ᴍᴏᴅᴇ ʙʏ » [𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ𓆪](t.me/ll_Destroyer_of_worldd_ll)**
 """
 HELP_BUTTON = [
