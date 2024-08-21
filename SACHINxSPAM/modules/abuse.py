@@ -150,7 +150,7 @@ async def rraid(e):
                 check = f"{user_id}_{e.chat_id}"
                 if check not in REPLY_RAID:
                     REPLY_RAID.append(check)
-                await e.reply("❖ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʀᴇᴘʟʏʀᴀɪᴅ !!")
+                await e.reply("❖ ʀᴇᴘʟʏʀᴀɪᴅ ʟɢ ɢʏᴀ ʜ ᴀʙ ʀᴇᴘʟʏ ᴋʀ ʀᴀɴᴅɪ !!")
         except NameError:
             await e.reply(f"{hl}rraid <username of user> <reply to a user>")
 
@@ -179,7 +179,7 @@ async def drraid(e):
             global REPLY_RAID
             if check in REPLY_RAID:
                 REPLY_RAID.remove(check)
-            await e.reply("❖ ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʀᴇᴘʟʏʀᴀɪᴅ !!")
+            await e.reply("❖ ᴊᴀᴀ ᴄʜᴏʀ ᴅɪʏᴀ ʟᴀᴜʀᴇᴇ !!")
         except NameError:
             await e.reply(f"{hl}ᴅʀʀᴀɪᴅ <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
