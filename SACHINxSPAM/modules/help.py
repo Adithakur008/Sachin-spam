@@ -8,7 +8,7 @@ HELP_STRING = f"""
 **❖ 𝖨𝖳'𝖲 DESTROYER 𝖧𝖤𝖫𝖯 𝖬𝖤𝖭𝖴 ❖**
 
 **● ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**
-**● ᴅᴀᴅᴅʏʏ : @ll_destroyer_ll**
+**● ᴅᴀᴅᴅʏʏ : @ll_destroyerr_ll**
 **● ᴍᴏᴅᴇ ʙʏ » [𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ𓆪](t.me/ll_destroyerr_ll)**
 """
 HELP_BUTTON = [
