@@ -34,7 +34,7 @@ async def echo(event):
             if user_id in DEV:
                 await event.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀᴜᴛʜᴏʀ'ꜱ ᴏᴡɴᴇʀ")
             elif user_id == OWNER_ID:
-                await event.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ")
+                await event.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ʏᴏᴜʀ ᴅᴀᴅᴅʏ,ᴋɪᴅ")
             elif user_id in SUDO_USERS:
                 await event.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇsᴛʀᴏʏᴇʀ ᴋɪᴅ")
             else:
