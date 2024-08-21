@@ -17,7 +17,7 @@ pongg = "ᴅ ᴇ s ᴛ ʀ ᴏ ʏ ᴇ ʀ"
 PIC = "https://telegra.ph/file/fcea9791b2366d867e135.jpg"
 Alivemsg = "𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  ʜᴇʀᴇ"
 
-TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪](https://t.me/+B1_6C_CnB0AxNWY1)\n❖ ᴄʜᴀɴɴᴇʟ : [ thala ꭙ ғɪɢʜᴛᴇʀ](https://t.me/+cW07X2RM_IBmYTI1)\n❖ ᴏᴡɴᴇʀ : [ᴅᴇsᴛʀᴏʏᴇʀ ғᴀᴛʜᴇʀ ](t.me/ll_Destroyer_of_worldd_ll)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
+TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪](https://t.me/thala_elclassico_07s)\n❖ ᴄʜᴀɴɴᴇʟ : [ ᴛʜᴀʟᴀ ꭙ ғɪɢʜᴛᴇʀ](https://t.me/Avengers_net_work)\n❖ ᴏᴡɴᴇʀ : [ᴅᴇsᴛʀᴏʏᴇʀ ғᴀᴛʜᴇʀ ](t.me/ll_destroyerr_ll)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -36,8 +36,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+B1_6C_CnB0AxNWY1"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+hZtWhC590gFiODNl")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Avengers_net_work"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/thala_elclassico_07")
         ],
         ]
         )
@@ -115,7 +115,7 @@ async def logs(KEX):
             await fetch.edit(f"**ᴇʀᴏᴏʀ:** {str(e)}")
 
     elif KEX.sender_id in SUDO_USERS:
-        await KEX.reply("❖ ɴᴏᴘᴇ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ")
+        await KEX.reply("❖ ɴᴏᴘᴇ, ᴏɴʟʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
@@ -209,7 +209,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("❖ ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")        
+        await event.reply("❖ ꜱᴏʀʀʏ, ᴏɴʟʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")        
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
