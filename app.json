@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/VARC9210/STORM",
+    "repository": "https://github.com/Adithakur008/Sachin-spam",
     "env": {
       "BOT_TOKEN": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
