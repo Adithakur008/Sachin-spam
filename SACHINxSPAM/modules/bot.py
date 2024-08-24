@@ -17,7 +17,7 @@ pongg = "ᴅ ᴇ s ᴛ ʀ ᴏ ʏ ᴇ ʀ"
 PIC = "https://telegra.ph/file/fcea9791b2366d867e135.jpg"
 Alivemsg = "𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  ʜᴇʀᴇ"
 
-TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪](https://t.me/thala_elclassico_07s)\n❖ ᴄʜᴀɴɴᴇʟ : [ ᴛʜᴀʟᴀ ꭙ ғɪɢʜᴛᴇʀ](https://t.me/Avengers_net_work)\n❖ ᴏᴡɴᴇʀ : [ᴅᴇsᴛʀᴏʏᴇʀ ғᴀᴛʜᴇʀ ](t.me/ll_destroyerr_ll)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
+TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪]https://t.me/+qYRBJgZsARpkNWJl)\n❖ ᴄʜᴀɴɴᴇʟ : [ ㅤ𓆩4ˢᵗ𓆪 ꭙ ғɪɢʜᴛᴇʀ](https://t.me/+mdbVT83q-TwxM2Fl)\n❖ ᴏᴡɴᴇʀ : [ᴅᴇsᴛʀᴏʏᴇʀ ғᴀᴛʜᴇʀ ](t.me/ll_destroyerr_ll)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -36,8 +36,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Avengers_net_work"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/thala_elclassico_07")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/I_M_FIGHTER"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+qYRBJgZsARpkNWJl")
         ],
         ]
         )
@@ -164,7 +164,7 @@ async def ping(e):
         KEX = await e.reply(f"❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪 | ❖")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"[🍹] 𝘋𝘌𝘚𝘛𝘙𝘖𝘠𝘌𝘙 ✗ 𝘋𝘈𝘋𝘋𝘠\n[🏓] 𝘛𝘏𝘈𝘓𝘈 𝘍𝘠𝘛𝘌𝘙\n[⚡] 𝘙𝘌𝘈𝘋𝘠 𝘛𝘖 𝘍𝘊𝘒\n❖ ᴘɪɴɢ pong `{mp} ᴍꜱ`") 
+        await KEX.edit(f"[🍹] 𝘋𝘌𝘚𝘛𝘙𝘖𝘠𝘌𝘙 ✗ 𝘋𝘈𝘋𝘋𝘠\n[🏓] ㅤ𓆩4ˢᵗ𓆪 ✗ 𝘍𝘠𝘛𝘌𝘙\n[⚡] 𝘙𝘌𝘈𝘋𝘠 𝘛𝘖 𝘍𝘊𝘒\n❖ ᴘɪɴɢ pong `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
@@ -205,7 +205,7 @@ async def addsudo(event):
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"❖ **ɴᴇᴡ ᴋɪᴅ**\n❖ ɪᴅ - `{target}`\n❖ ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...")
+            await ok.edit(f"❖ **ㅤ𓆩4ˢᵗ𓆪 𝘒𝘐 𝘈𝘜𝘓𝘈𝘋 **\n❖ ɪᴅ - `{target}`\n❖ ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
