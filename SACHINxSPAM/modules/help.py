@@ -208,13 +208,13 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/Avengers_net_work"),
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/thala_elclassico_07")
+                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/I_M_FIGHTER"),
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+qYRBJgZsARpkNWJl")
               ]
             ]
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ destroyer ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @ll_destroyerr_ll", cache_time=0, alert=True)
+        await event.answer("4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ..ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_destroyerr_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -233,7 +233,7 @@ async def help_spam(event):
               buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
               ) 
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ destroyer ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @ll_destroyerr_ll", cache_time=0, alert=True)
+        await event.answer("4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ..ʀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_destroyerr_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -252,7 +252,7 @@ async def help_raid(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴅᴇsᴛʀᴏʏᴇʀ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @ll_destroyerr__ll", cache_time=0, alert=True)
+        await event.answer("4sᴛ ᴋᴏ ʙᴀᴀᴀᴘ ʙᴏʟ..ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_destroyerr__ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -271,4 +271,4 @@ async def help_extra(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
             )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴅᴇsᴛʀᴏʏᴇʀ sᴘᴀᴍ ʙᴏᴛꜱ !! @ll_destroyerr_ll ", cache_time=0, alert=True)
+        await event.answer("4sᴛ ᴋᴏ ʙᴀᴀᴀᴘ ʙᴏʟ ᴘʜʟᴇᴇ..ʀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_destroyerr_ll ", cache_time=0, alert=True)
