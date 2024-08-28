@@ -80,7 +80,7 @@ def get_readable_time(seconds: int) -> str:
 @X9.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%slogs(?: |$)(.*)" % hl))
 async def logs(KEX):
-    if KEX.sender_id == OWNER_ID:
+    if KEX.sender_id == SUDO_USERS:
         if (HEROKU_APP_NAME is None) or (HEROKU_API_KEY is None):
             await KEX.reply(
                 KEX.chat_id,
@@ -114,7 +114,7 @@ async def logs(KEX):
         except Exception as e:
             await fetch.edit(f"**ᴇʀᴏᴏʀ:** {str(e)}")
 
-    elif KEX.sender_id in OWNER_ID:
+    elif KEX.sender_id == OWNER_ID:
         await KEX.reply("❖ ɴᴏ ᴏɴʟʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
