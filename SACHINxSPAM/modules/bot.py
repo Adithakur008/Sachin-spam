@@ -128,7 +128,7 @@ async def logs(KEX):
 @X9.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 async def leave(e):
-    if e.sender_id in OWNER_ID:
+    if e.sender_id == OWNER_ID:
 
         if len(e.text) > 7:
             event = await e.reply("❖ ғʜɪʀ ᴀᴀᴜɴɢᴀ ᴍᴀᴀ ᴄʜᴏᴅɴᴇ...")
