@@ -114,8 +114,8 @@ async def logs(KEX):
         except Exception as e:
             await fetch.edit(f"**ᴇʀᴏᴏʀ:** {str(e)}")
 
-    elif KEX.sender_id in SUDO_USERS:
-        await KEX.reply("❖ ɴᴏᴘᴇ, ᴏɴʟʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ")
+    elif KEX.sender_id in OWNER_ID:
+        await KEX.reply("❖ ɴᴏ ᴏɴʟʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
@@ -128,10 +128,10 @@ async def logs(KEX):
 @X9.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 async def leave(e):
-    if e.sender_id in SUDO_USERS:
+    if e.sender_id in OWNER_ID:
 
         if len(e.text) > 7:
-            event = await e.reply("❖ ʟᴇᴀᴠɪɴɢ...")
+            event = await e.reply("❖ ғʜɪʀ ᴀᴀᴜɴɢᴀ ᴍᴀᴀ ᴄʜᴏᴅɴᴇ...")
             mkl = e.text.split(" ", 1)
             try:
                 await event.client(LeaveChannelRequest(int(mkl[1])))
@@ -142,7 +142,7 @@ async def leave(e):
                   alt = f"**❖ ʏᴏᴜ ᴄᴀɴ'ᴛ ᴅᴏ ᴛʜɪꜱ ʜᴇʀᴇ !!**\n\n❖ {hl}ʟᴇᴀᴠᴇ : ᴛʏᴘᴇ ᴛʜɪꜱ ɪɴ ɢʀᴏᴜᴘ"
                   await e.reply(alt)
              else:
-                  event = await e.reply("❖ ʟᴇᴀᴠɪɴɢ...")
+                  event = await e.reply("❖ ғʜɪʀ ᴀᴀᴜɴɢᴀ ᴍᴀᴀ ᴄʜᴏᴅɴᴇ...")
                   try:
                       await event.client(LeaveChannelRequest(int(e.chat_id)))
                   except Exception as e:
@@ -164,7 +164,7 @@ async def ping(e):
         KEX = await e.reply(f"❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪 | ❖")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"[🍹] 𝘋𝘌𝘚𝘛𝘙𝘖𝘠𝘌𝘙 ✗ 𝘋𝘈𝘋𝘋𝘠\n[🏓] ㅤ𓆩4ˢᵗ𓆪 ✗ 𝘍𝘠𝘛𝘌𝘙\n[⚡] 𝘙𝘌𝘈𝘋𝘠 𝘛𝘖 𝘍𝘊𝘒\n❖ ᴘɪɴɢ pong `{mp} ᴍꜱ`") 
+        await KEX.edit(f"[🍹] 𝘋𝘌𝘚𝘛𝘙𝘖𝘠𝘌𝘙 ✗ 𝘋𝘈𝘋𝘋𝘠\n[🏓] 𓆩4ˢᵗ𓆪 ✗ 𝘍𝘠𝘛𝘌𝘙\n[⚡] 𝘙𝘌𝘈𝘋𝘠 𝘛𝘖 𝘍𝘊𝘒\n❖ ᴘɪɴɢ pong `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
