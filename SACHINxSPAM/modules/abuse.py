@@ -79,7 +79,7 @@ async def raid(e):
             elif uid == OWNER_ID:
                 await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ")
             elif uid in SUDO_USERS:
-                await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇsᴛʀᴏʏᴇʀ ᴋɪᴅ ")
+                await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ғᴀᴅᴇᴅ ᴋɪᴅ ")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
@@ -144,7 +144,7 @@ async def rraid(e):
             elif user_id == OWNER_ID:
                 await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ ")
             elif user_id in SUDO_USERS:
-                await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇsᴛʀᴏʏᴇʀ ᴋɪᴅ ")
+                await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ғᴀᴅᴇᴅ ᴋɪᴅ ")
             else:
                 global REPLY_RAID
                 check = f"{user_id}_{e.chat_id}"
@@ -213,7 +213,7 @@ async def hraid(e):
             elif uid == OWNER_ID:
                 await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ")
             elif uid in SUDO_USERS:
-                await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇsᴛʀᴏʏᴇʀ ᴋɪᴅ ")
+                await e.reply("❖ ɴᴏᴘᴇ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ғᴀᴅᴇᴅ ᴋɪᴅ ")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
@@ -336,7 +336,7 @@ async def spam(event: events):
 async def pspam(event):
     if event.sender_id in SUDO_USERS:
         if event.chat_id in GROUP:
-            await event.reply("» ꜱʀʏ, ᴛʜɪꜱ ɢʀᴏᴜᴘ ɪꜱ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ʙʏ ❖ | ᴅᴇsᴛʀᴏʏᴇʀ ꭙ ʙᴏᴛ | ❖")
+            await event.reply("» ꜱʀʏ, ᴛʜɪꜱ ɢʀᴏᴜᴘ ɪꜱ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ʙʏ 𝔽𝔸𝔻𝔼𝔻 ⚡ ℍ𝕌")
         else:
             try:
                 counter = int(event.text.split(" ", 2)[1])
