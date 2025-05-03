@@ -5,11 +5,11 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 
 
 HELP_STRING = f"""
-**❖ 𝖨𝖳'𝖲 DESTROYER 𝖧𝖤𝖫𝖯 𝖬𝖤𝖭𝖴 ❖**
+**❖ 𝖨𝖳'𝖲 FADED 𝖧𝖤𝖫𝖯 𝖬𝖤𝖭𝖴 ❖**
 
 **● ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**
-**● ᴅᴀᴅᴅʏʏ : @ll_destroyerr_ll**
-**● ᴍᴏᴅᴇ ʙʏ » [𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ𓆪](t.me/ll_destroyerr_ll)**
+**● ᴅᴀᴅᴅʏʏ : @ll_FADED_HU_ll**
+**● ᴍᴀᴅᴇ ʙʏ » [🕷 𝗙𝗔𝗗𝗘𝗗 🕸](t.me/ll_FADED_HU_ll)**
 """
 HELP_BUTTON = [
     [
@@ -21,8 +21,8 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/I_M_FIGHTER"),
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+qYRBJgZsARpkNWJl")
+      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/+2H35U0oVDEIwMGEx"),
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+amibVQYuMGw3ZDY1")
     ]
   ]
 
@@ -41,7 +41,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/0fe27bef4d231b0f9e4da.jpg",
+              "https://files.catbox.moe/kjsdy6.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -102,7 +102,7 @@ extra_msg = f"""
   ⦁ {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ)
   ⦁ {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 
-**© @ll_destroyerr_ll**
+**© @ll_FADED_HU_ll**
 """
 
 
@@ -114,7 +114,7 @@ owner_msg = f"""
  ❖ ᴜꜱᴀɢᴇ :
   ⦁{hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-**© @ll_destroyerr_ll**
+**© @ll_FADED_HU_ll**
 """      
           
 raid_msg = f"""
@@ -138,7 +138,7 @@ raid_msg = f"""
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ)
 
-**© @ll_destroyerr_ll**
+**© @ll_FADED_HU_ll**
 """
 
 spam_msg = f"""
@@ -181,7 +181,7 @@ spam_msg = f"""
   ⦁ {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @ll_destroyerr_ll**
+** © @ll_FADED_HU_ll**
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -208,13 +208,13 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/I_M_FIGHTER"),
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+qYRBJgZsARpkNWJl")
+                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/+2H35U0oVDEIwMGEx"),
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+amibVQYuMGw3ZDY1")
               ]
             ]
           )
     else:
-        await event.answer("4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ..ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_destroyerr_ll", cache_time=0, alert=True)
+        await event.answer("ғᴀᴅᴇᴅ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ..ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_FADED_HU_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -233,7 +233,7 @@ async def help_spam(event):
               buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
               ) 
     else:
-        await event.answer("4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ..ʀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_destroyerr_ll", cache_time=0, alert=True)
+        await event.answer("ғᴀᴅᴇᴅ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ..ʀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_FADED_HU_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -252,7 +252,7 @@ async def help_raid(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
           )
     else:
-        await event.answer("4sᴛ ᴋᴏ ʙᴀᴀᴀᴘ ʙᴏʟ..ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_destroyerr__ll", cache_time=0, alert=True)
+        await event.answer("ғᴀᴅᴇᴅ ᴋᴏ ʙᴀᴀᴀᴘ ʙᴏʟ..ʀᴀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_FADED_HU_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -271,4 +271,4 @@ async def help_extra(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
             )
     else:
-        await event.answer("4sᴛ ᴋᴏ ʙᴀᴀᴀᴘ ʙᴏʟ ᴘʜʟᴇᴇ..ʀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_destroyerr_ll ", cache_time=0, alert=True)
+        await event.answer("ғᴀᴅᴇᴅ ᴋᴏ ʙᴀᴀᴀᴘ ʙᴏʟ ᴘʜʟᴇᴇ..ʀɴᴅɪ ᴋᴇ ᴘɪʟʟᴇ 😘!! @ll_FADED_HU_ll ", cache_time=0, alert=True)
