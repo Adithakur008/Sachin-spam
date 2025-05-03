@@ -13,11 +13,11 @@ from telethon.tl.custom import button
 from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
-pongg = "ᴅ ᴇ s ᴛ ʀ ᴏ ʏ ᴇ ʀ"
-PIC = "https://telegra.ph/file/fcea9791b2366d867e135.jpg"
-Alivemsg = "𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  ʜᴇʀᴇ"
+pongg = " ғ ᴀ ᴅ ᴇ ᴅ "
+PIC = "https://files.catbox.moe/kjsdy6.jpg"
+Alivemsg = "𓆩𝔽𝔸𝔻𝔼𝔻 ⚡ ℍ𝕌𓆪  ʜᴇʀᴇ"
 
-TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪  | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪]https://t.me/+qYRBJgZsARpkNWJl)\n❖ ᴄʜᴀɴɴᴇʟ : [ ㅤ𓆩4ˢᵗ𓆪 ꭙ ғɪɢʜᴛᴇʀ](https://t.me/+mdbVT83q-TwxM2Fl)\n❖ ᴏᴡɴᴇʀ : [ᴅᴇsᴛʀᴏʏᴇʀ ғᴀᴛʜᴇʀ ](t.me/ll_destroyerr_ll)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
+TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | 𓆩𝔽𝔸𝔻𝔼𝔻 ⚡ ℍ𝕌𓆪  | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [𓆩𝔽𝔸𝔻𝔼𝔻 ⚡ ℍ𝕌𓆪]https://t.me/+qYRBJgZsARpkNWJl)\n❖ ᴄʜᴀɴɴᴇʟ : [🕷F A D E D 🕸](https://t.me/+2H35U0oVDEIwMGEx)\n❖ ᴏᴡɴᴇʀ : [ ғᴀᴅᴇᴅ ʜᴜ ⚡  ](t.me/ll_FADED_HU_ll)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -36,8 +36,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/I_M_FIGHTER"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+qYRBJgZsARpkNWJl")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+2H35U0oVDEIwMGEx"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+amibVQYuMGw3ZDY1")
         ],
         ]
         )
@@ -102,7 +102,7 @@ async def logs(KEX):
         fetch = await KEX.reply(f"ꜰᴇᴛᴄʜʜɪɴɢ ʟᴏɢꜱ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ...")
     
         with open("Logs.txt", "w") as logfile:
-            logfile.write("ᴅᴇsᴛʀᴏʏᴇʀ 𝚇 🍷 [ Bot Logs ]\n\n" + logs)
+            logfile.write("ғᴀᴅᴇᴅ 🍷 [ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
@@ -115,7 +115,7 @@ async def logs(KEX):
             await fetch.edit(f"**ᴇʀᴏᴏʀ:** {str(e)}")
 
     elif KEX.sender_id == OWNER_ID:
-        await KEX.reply("❖ ɴᴏ ᴏɴʟʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ")
+        await KEX.reply("❖ ɴᴏ ᴏɴʟʏ ғᴀᴅᴇᴅ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
@@ -161,10 +161,10 @@ async def leave(e):
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        KEX = await e.reply(f"❖ | 𓆩𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞ℝ ✗ 𝐒𝐩𝐚𝕄𓆪 | ❖")
+        KEX = await e.reply(f"❖ | 𝔽𝔸𝔻𝔼𝔻 ⚡ ℍ𝕌 | ❖")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"[🍹] 𝘋𝘌𝘚𝘛𝘙𝘖𝘠𝘌𝘙 ✗ 𝘋𝘈𝘋𝘋𝘠\n[🏓] 𓆩4ˢᵗ𓆪 ✗ 𝘍𝘠𝘛𝘌𝘙\n[⚡] 𝘙𝘌𝘈𝘋𝘠 𝘛𝘖 𝘍𝘊𝘒\n❖ ᴘɪɴɢ pong `{mp} ᴍꜱ`") 
+        await KEX.edit(f"[🍹] 𝘍𝘈𝘋𝘌𝘋 ✗ 𝘋𝘈𝘋𝘋𝘠\n[🏓] 𝘛𝘏𝘈𝘓𝘈 ✗ 𝘍𝘠𝘛𝘌𝘙\n[⚡] 𝘙𝘌𝘈𝘋𝘠 𝘛𝘖 𝘍𝘊𝘒\n❖ ᴘɪɴɢ pong `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
@@ -181,7 +181,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"❖ ᴅᴇsᴛʀᴏʏᴇʀ ᴋᴀ ᴇᴋ ᴏʀ ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏʀʜᴀ ʜ...")
+        ok = await event.reply(f"❖ ғᴀᴅᴇᴅ ᴋᴀ ᴇᴋ ᴏʀ ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏʀʜᴀ ʜ...")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -199,17 +199,17 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"❖ ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴋɪᴅ !!")
+            await ok.edit(f"❖ ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ғᴀᴅᴇᴅ ᴋɪᴅ !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"❖ **ㅤ𓆩4ˢᵗ𓆪 𝘒𝘐 𝘈𝘜𝘓𝘈𝘋 **\n❖ ɪᴅ - `{target}`\n❖ ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...")
+            await ok.edit(f"❖ **ㅤ𝘍𝘈𝘋𝘌𝘋 𝘒𝘐 𝘈𝘜𝘓𝘈𝘋 **\n❖ ɪᴅ - `{target}`\n❖ ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("❖ ꜱᴏʀʀʏ, ᴏɴʟʏ ᴅᴇsᴛʀᴏʏᴇʀ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")        
+        await event.reply("❖ ꜱᴏʀʀʏ, ᴏɴʟʏ ғᴀᴅᴇᴅ ᴅᴀᴅᴅʏ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")        
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
