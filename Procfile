@@ -1,2 +1,2 @@
 # ©️ @SACHIN_OWNER || @V_VIP_OWNER
-ItzSanatani: python -m main.py
+itzFaded: python -m main.py

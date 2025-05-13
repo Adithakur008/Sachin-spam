@@ -1,6 +1,6 @@
 build:
   docker:
-    ItzSanatani: Dockerfile
+    itzFaded: Dockerfile
 run:
   itzFaded: python3 -m main.py
 
