@@ -1,4 +1,4 @@
-# ©️ @SACHIN_OWNER || @FADED_KI_DUNIYA
+# ©️ @II_FADED_HU_ll || @FADED_KI_DUNIYA
 import logging
 from telethon import TelegramClient
 from os import getenv

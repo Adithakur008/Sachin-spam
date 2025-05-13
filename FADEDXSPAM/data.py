@@ -1,4 +1,4 @@
-# ©️ @SACHIN_OWNER || @FADED_KI_DUNIYA
+# ©️ @II_FADED_HU_ll || @FADED_KI_DUNIYA
 RAID = [
 "𝗙𝗔𝗗𝗘𝗗 𝗧𝗘𝗥𝗔 𝗕𝗔𝗔𝗣𝗣𝗣𝗣𝗣 𝗛𝗔𝗜 𝗥𝗔𝗡𝗗𝗜 𝗞𝗘",
 "ᴍᴀᴅᴀʀᴄʜᴏᴅ ᴛᴇʀɪ ᴍᴀᴀ ᴋɪ ᴄʜᴜᴛ ᴍᴇ ɢʜᴜᴛᴋᴀ ᴋʜᴀᴀᴋᴇ ᴛʜᴏᴏᴋ ᴅᴜɴɢᴀ 🤣🤣",
