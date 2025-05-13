@@ -1,2 +1,2 @@
-# ©️ @SACHIN_OWNER || @V_VIP_OWNER
+# ©️ @SACHIN_OWNER || @FADED_KI_DUNIYA
 itzFaded: python -m main.py

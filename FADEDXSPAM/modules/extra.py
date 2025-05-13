@@ -1,4 +1,4 @@
-# ©️ @SACHIN_OWNER || @V_VIP_OWNER
+# ©️ @SACHIN_OWNER || @FADED_KI_DUNIYA
 import asyncio
 import base64
 from random import choice

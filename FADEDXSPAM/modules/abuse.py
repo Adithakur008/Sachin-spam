@@ -1,4 +1,4 @@
-# ©️ @SACHIN_OWNER || @V_VIP_OWNER
+# ©️ @SACHIN_OWNER || @FADED_KI_DUNIYA
 import asyncio
 from random import choice
 from telethon import events
