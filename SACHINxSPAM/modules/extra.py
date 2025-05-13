@@ -5,12 +5,12 @@ from random import choice
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from SACHINxSPAM.data import DEV
-from SACHINxSPAM.data import EMOJI
-from SACHINxSPAM.data import FLIRT
-from SACHINxSPAM.data import GM, GA, GN
-from SACHINxSPAM.data import LOVERAID
-from SACHINxSPAM.data import SRAID
+from FADEDXSPAM.data import DEV
+from FADEDXSPAM.data import EMOJI
+from FADEDXSPAM.data import FLIRT
+from FADEDXSPAM.data import GM, GA, GN
+from FADEDXSPAM.data import LOVERAID
+from FADEDXSPAM.data import SRAID
 
 ECHO = []
 
